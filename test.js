@@ -1,8 +1,8 @@
 const assert = require('assert')
 const getOwnEnumerablePropertySymbols = require('.')
 
-const enumKey = Symbol()
-const nonEnumKey = Symbol()
+const enumKey = Symbol('for enumerable')
+const nonEnumKey = Symbol('for non-enumerable')
 
 const object = {
   [enumKey]: undefined
