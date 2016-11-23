@@ -1,6 +1,6 @@
 {
   "name": "get-own-enumerable-property-symbols",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns an array of all enumerable symbol properties found directly upon a given object",
   "main": "index.js",
   "scripts": {
