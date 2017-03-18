@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
   "devDependencies": {
-    "standard": "^8.5.0"
+    "standard": "^9.0.2"
   }
 }
