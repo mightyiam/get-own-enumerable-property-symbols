@@ -2,11 +2,21 @@
   "name": "get-own-enumerable-property-symbols",
   "version": "1.0.1",
   "description": "Returns an array of all enumerable symbol properties found directly upon a given object",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "lint": "standard",
+    "transpile": "tsc",
+    "lint-js": "standard",
     "unit": "node test.js",
-    "test": "npm run lint && npm run unit"
+    "test": "run-s lint-js transpile unit"
+  },
+  "standard": {
+    "ignore": [
+      "lib"
+    ]
   },
   "repository": {
     "type": "git",
@@ -27,6 +37,8 @@
   },
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
   "devDependencies": {
-    "standard": "^10.0.0"
+    "npm-run-all": "^4.0.2",
+    "standard": "^10.0.0",
+    "typescript": "^2.3.4"
   }
 }
