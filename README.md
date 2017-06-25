@@ -6,12 +6,10 @@ Similar to [`Object.getOwnPropertySymbols`](https://developer.mozilla.org/en-US/
 but only [enumerable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties) keys.
 
 ```js
-const getOwnEnumPropSymbols = require('get-own-enumerable-property-symbols')
+import getOwnEnumPropSymbols from 'get-own-enumerable-property-symbols'
 
 getOwnEnumPropSymbols({ [Symbol()]: undefined })
 // [Symbol()]
 getOwnEnumPropSymbols(Object.defineProperty({}, Symbol(), {enumerable: false}))
 // []
 ```
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
