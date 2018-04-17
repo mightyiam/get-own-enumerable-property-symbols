@@ -1,11 +1,8 @@
 {
+  "extends": "./node_modules/tsconfigs/universal",
   "compilerOptions": {
-    "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
-    "module": "commonjs",                     /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd' or 'es2015'. */
-    "lib": ["es2017"],                             /* Specify library files to be included in the compilation:  */
-    "outDir": "lib",
-    "declaration": true,                   /* Generates corresponding '.d.ts' file. */
-    "sourceMap": true,                     /* Generates corresponding '.map' file. */
-    "strict": true                            /* Enable all strict type-checking options. */
+    "types": [
+      "node"
+    ]
   }
 }

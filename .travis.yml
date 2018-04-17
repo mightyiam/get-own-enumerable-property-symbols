@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "node"
+  - "lts/*"
+before_install:
+  - npm --global install npm
+  - npm --global install greenkeeper-lockfile@1
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
