@@ -48,7 +48,7 @@
     "npm-run-all": "^4.0.2",
     "tsconfigs": "^2.0.0",
     "typescript": "2.8.1",
-    "typescript-eslint-parser": "^14.0.0"
+    "typescript-eslint-parser": "^15.0.0"
   },
   "eslintIgnore": [
     "*.d.ts"
