@@ -10,4 +10,4 @@ const object = {
 
 Object.defineProperty(object, nonEnumKey, {enumerable: false})
 
-assert.deepEqual(getOwnEnumerablePropertySymbols(object), [enumKey])
+assert.strict.deepEqual(getOwnEnumerablePropertySymbols(object), [enumKey])
