@@ -8,7 +8,7 @@ const object = {
   [enumKey]: undefined
 }
 
-Object.defineProperty(object, nonEnumKey, {enumerable: false})
+Object.defineProperty(object, nonEnumKey, { enumerable: false })
 
 const actual = getOwnEnumerablePropertySymbols(object)
 assert.ok(Array.isArray(actual))
