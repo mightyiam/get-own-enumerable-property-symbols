@@ -1,8 +1,7 @@
 {
-  "extends": "./node_modules/tsconfigs/universal",
+  "extends": "tsconfigs/agnostic-module",
+  "include": ["src/**/*.ts"],
   "compilerOptions": {
-    "types": [
-      "node"
-    ]
+    "outDir": "lib"
   }
 }
