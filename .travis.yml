@@ -5,10 +5,7 @@ node_js:
   - "13"
 before_install:
   - npm --global install npm
-  - npm --global install greenkeeper-lockfile
 install: npm install
-before_script: greenkeeper-lockfile-update
-after_script: greenkeeper-lockfile-upload
 script:
   - commitlint-travis
   - npm test
