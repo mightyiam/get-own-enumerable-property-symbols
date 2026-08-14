@@ -40,6 +40,15 @@
     "url": "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
   },
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/mightyiam"
+    },
+    "https://wise.com/pay/me/shaharo",
+    "https://mempool.space/address/bc1ql8frg3mwmm86u7h97t8xhc3qslhg3hw9k6hqvc",
+    "https://etherscan.io/address/0xCF605210cd871b7B43BCaF64e553DEc26D95598c"
+  ],
   "devDependencies": {
     "@types/node": "*",
     "typescript": "*"
