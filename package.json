@@ -15,11 +15,6 @@
     "unit": "node lib/test.js",
     "test": "npm run transpile && npm run unit"
   },
-  "standard": {
-    "ignore": [
-      "lib"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
