@@ -1,4 +1,4 @@
-import getOwnEnumerablePropertySymbols from '.'
+import getOwnEnumerablePropertySymbols from './index.js'
 import { strictEqual } from 'assert'
 
 const enumKey = Symbol('for enumerable')
