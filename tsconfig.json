@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
-    "target": "ESNext",
+    "target": "ES2025",
     "module": "CommonJS",
 
     "types": ["node"],
