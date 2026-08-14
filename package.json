@@ -1,15 +1,22 @@
 {
   "name": "get-own-enumerable-property-symbols",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "Returns an array of all enumerable symbol properties found directly upon a given object",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    }
+  },
   "files": [
     "lib/index.d.ts",
     "lib/index.js",
     "lib/index.js.map"
   ],
+  "sideEffects": false,
   "scripts": {
     "transpile": "tsc",
     "unit": "node lib/test.js",
@@ -33,6 +40,15 @@
     "url": "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
   },
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/mightyiam"
+    },
+    "https://wise.com/pay/me/shaharo",
+    "https://mempool.space/address/bc1ql8frg3mwmm86u7h97t8xhc3qslhg3hw9k6hqvc",
+    "https://etherscan.io/address/0xCF605210cd871b7B43BCaF64e553DEc26D95598c"
+  ],
   "devDependencies": {
     "@types/node": "*",
     "typescript": "*"
