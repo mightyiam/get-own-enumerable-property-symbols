@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     'scope-enum': [2, 'always', [
       'commitlint',
+      'dependabot',
       'package',
       'docs',
       'deps'
