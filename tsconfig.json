@@ -1,5 +1,4 @@
 {
-  "include": ["**/*.ts"],
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
