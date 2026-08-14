@@ -36,15 +36,9 @@
   "bugs": {
     "url": "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
-  },
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
   "devDependencies": {
     "@types/node": "*",
-    "husky": "*",
     "npm-run-all": "*",
     "tsconfigs": "*",
     "typescript": "*"
