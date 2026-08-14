@@ -3,7 +3,7 @@
     "rootDir": "src",
     "outDir": "lib",
     "target": "ES2025",
-    "module": "CommonJS",
+    "module": "NodeNext",
 
     "types": ["node"],
 
