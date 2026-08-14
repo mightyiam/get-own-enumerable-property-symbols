@@ -10,10 +10,9 @@
     "lib/index.js.map"
   ],
   "scripts": {
-    "lint": "eslint .",
     "transpile": "tsc",
     "unit": "ava",
-    "test": "run-s lint transpile unit"
+    "test": "run-s transpile unit"
   },
   "standard": {
     "ignore": [
@@ -49,20 +48,10 @@
     "@commitlint/config-conventional": "*",
     "@commitlint/travis-cli": "*",
     "@types/node": "*",
-    "@typescript-eslint/eslint-plugin": "*",
     "ava": "*",
-    "eslint": "*",
-    "eslint-config-standard-with-typescript": "*",
-    "eslint-plugin-import": "*",
-    "eslint-plugin-node": "*",
-    "eslint-plugin-promise": "*",
-    "eslint-plugin-standard": "*",
     "husky": "*",
     "npm-run-all": "*",
     "tsconfigs": "*",
     "typescript": "*"
-  },
-  "eslintIgnore": [
-    "*.d.ts"
-  ]
+  }
 }
