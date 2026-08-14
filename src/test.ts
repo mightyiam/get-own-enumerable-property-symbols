@@ -1,5 +1,5 @@
 import getOwnEnumerablePropertySymbols from '.'
-import assert from 'assert'
+import { strictEqual } from 'assert'
 
 const enumKey = Symbol('for enumerable')
 const nonEnumKey = Symbol('for non-enumerable')
@@ -11,6 +11,6 @@ const object = {
 Object.defineProperty(object, nonEnumKey, { enumerable: false })
 
 const actual = getOwnEnumerablePropertySymbols(object)
-assert.strictEqual(Array.isArray(actual), true)
-assert.strictEqual(actual.length, 1)
-assert.strictEqual(actual[0], enumKey)
+strictEqual(Array.isArray(actual), true)
+strictEqual(actual.length, 1)
+strictEqual(actual[0], enumKey)
