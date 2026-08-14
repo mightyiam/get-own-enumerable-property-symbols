@@ -38,14 +38,11 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "npm test"
     }
   },
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
   "devDependencies": {
-    "@commitlint/cli": "*",
-    "@commitlint/config-conventional": "*",
     "@types/node": "*",
     "husky": "*",
     "npm-run-all": "*",
