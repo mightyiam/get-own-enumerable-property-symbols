@@ -1,6 +1,7 @@
 {
-  "include": ["src/**/*.ts"],
+  "include": ["**/*.ts"],
   "compilerOptions": {
+    "rootDir": "src",
     "outDir": "lib",
     "target": "ESNext",
     "module": "CommonJS",
