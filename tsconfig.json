@@ -1,8 +1,16 @@
 {
-  "extends": "tsconfigs/agnostic-module",
   "include": ["src/**/*.ts"],
   "compilerOptions": {
+    "outDir": "lib",
+    "target": "ESNext",
+    "module": "CommonJS",
+
     "types": ["node"],
-    "outDir": "lib"
+    "esModuleInterop": true,
+
+    "strict": true,
+
+    "sourceMap": true,
+    "declaration": true
   }
 }

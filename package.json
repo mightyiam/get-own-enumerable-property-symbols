@@ -39,7 +39,6 @@
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
   "devDependencies": {
     "@types/node": "*",
-    "tsconfigs": "*",
     "typescript": "*"
   }
 }
