@@ -46,7 +46,6 @@
   "devDependencies": {
     "@commitlint/cli": "*",
     "@commitlint/config-conventional": "*",
-    "@commitlint/travis-cli": "*",
     "@types/node": "*",
     "ava": "*",
     "husky": "*",
