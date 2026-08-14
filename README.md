@@ -1,4 +1,4 @@
-# get-own-enumerable-property-symbols [![Build Status](https://travis-ci.org/mightyiam/get-own-enumerable-property-symbols.svg?branch=master)](https://travis-ci.org/mightyiam/get-own-enumerable-property-symbols)
+# get-own-enumerable-property-symbols
 
 Returns an array of all *enumerable* symbol properties found directly upon a given object.
 

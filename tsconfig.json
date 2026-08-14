@@ -1,7 +1,15 @@
 {
-  "extends": "tsconfigs/agnostic-module",
-  "include": ["src/**/*.ts"],
   "compilerOptions": {
-    "outDir": "lib"
+    "rootDir": "src",
+    "outDir": "lib",
+    "target": "ES2025",
+    "module": "NodeNext",
+
+    "types": ["node"],
+
+    "strict": true,
+
+    "sourceMap": true,
+    "declaration": true
   }
 }
