@@ -1,5 +1,9 @@
 # Changelog
 
+### 4.0.0
+
+* ES module
+
 ### [3.0.2](https://github.com/mightyiam/get-own-enumerable-property-symbols/compare/v3.0.1...v3.0.2) (2019-12-10)
 
 
