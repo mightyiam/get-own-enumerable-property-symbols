@@ -10,6 +10,7 @@
     "lib/index.js",
     "lib/index.js.map"
   ],
+  "sideEffects": false,
   "scripts": {
     "transpile": "tsc",
     "unit": "node lib/test.js",
