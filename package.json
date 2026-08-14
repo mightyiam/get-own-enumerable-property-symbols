@@ -12,7 +12,7 @@
   "scripts": {
     "transpile": "tsc",
     "unit": "node lib/test.js",
-    "test": "run-s transpile unit"
+    "test": "npm run transpile && npm run unit"
   },
   "standard": {
     "ignore": [
@@ -39,7 +39,6 @@
   "homepage": "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
   "devDependencies": {
     "@types/node": "*",
-    "npm-run-all": "*",
     "tsconfigs": "*",
     "typescript": "*"
   }
