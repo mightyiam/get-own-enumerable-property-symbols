@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "transpile": "tsc",
-    "unit": "ava",
+    "unit": "node lib/test.js",
     "test": "run-s transpile unit"
   },
   "standard": {
@@ -47,7 +47,6 @@
     "@commitlint/cli": "*",
     "@commitlint/config-conventional": "*",
     "@types/node": "*",
-    "ava": "*",
     "husky": "*",
     "npm-run-all": "*",
     "tsconfigs": "*",
